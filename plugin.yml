@@ -1,0 +1,14 @@
+name: SimpleSilkShop
+author: Goonhaven
+version: 1.0
+api-version: 1.13
+main: me.goonhaven.SimpleSilkShop.SimpleSilkShop
+description: Shop function add-on for SimpleSilk plugin.
+depend: [SimpleSilk, Vault]
+commands:
+  SignFormat:
+    description: '[Sell Spawner] [Quantity] [Type] [Price]'
+permissions:
+   silkshop.place:
+      description: Allows spawner sign shop creation.
+      default: op
